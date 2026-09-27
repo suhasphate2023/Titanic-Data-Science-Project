@@ -141,6 +141,70 @@ This project demonstrates how data visualization can transform raw data into und
 
 **Suhas Phate**
 
+# Week 5 – Model Evaluation and Optimization
+
+## Project Title
+
+Titanic Survival Prediction using Python
+
+## Objective
+
+The objective of this project is to evaluate and optimize a machine learning classification model for predicting passenger survival using the Titanic dataset.
+
+## Model Used
+
+* Logistic Regression
+* GridSearchCV for hyperparameter optimization
+* 5-Fold Stratified Cross-Validation
+
+## Features Used
+
+* Pclass
+* Sex
+* Age
+* SibSp
+* Parch
+* Fare
+* Embarked
+
+## Evaluation Metrics
+
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* ROC-AUC
+* Confusion Matrix
+* ROC Curve
+* Cross-Validation
+
+## Results
+
+| Metric    |  Score |
+| --------- | -----: |
+| Accuracy  | 80.45% |
+| Precision | 79.31% |
+| Recall    | 66.67% |
+| F1-Score  | 72.44% |
+| ROC-AUC   | 84.37% |
+
+## Optimization
+
+GridSearchCV was used to tune the Logistic Regression parameters.
+
+Best parameters:
+
+* C = 1
+* Solver = liblinear
+
+## Tools and Technologies
+
+Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+
+## Project Report
+
+The complete Week 5 internship report is available in this repository.
+
 
 
 
